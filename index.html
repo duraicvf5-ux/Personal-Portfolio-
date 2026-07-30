@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Durai V — BSc Computer Science Graduate | Web Developer Portfolio</title>
+<meta name="description" content="Durai V is a BSc Computer Science graduate from Tirunelveli, Tamil Nadu, specializing in web development with HTML, CSS, JavaScript, PHP, MySQL and Python. View projects, internship experience, and skills.">
+<meta name="keywords" content="Durai V, web developer, frontend developer, BSc Computer Science, Tirunelveli, portfolio">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Primary navigation">
+    <a href="#home" class="nav-logo" aria-label="Durai V home">
+      <span class="nav-logo-bracket">&lt;</span>DV<span class="nav-logo-bracket">/&gt;</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" class="nav-link" data-tab="index.html"><span class="tab-dot"></span>Home</a></li>
+      <li><a href="#about" class="nav-link" data-tab="about.js"><span class="tab-dot"></span>About</a></li>
+      <li><a href="#education" class="nav-link" data-tab="education.md"><span class="tab-dot"></span>Education</a></li>
+      <li><a href="#skills" class="nav-link" data-tab="skills.json"><span class="tab-dot"></span>Skills</a></li>
+      <li><a href="#experience" class="nav-link" data-tab="experience.php"><span class="tab-dot"></span>Experience</a></li>
+      <li><a href="#projects" class="nav-link" data-tab="projects/"><span class="tab-dot"></span>Projects</a></li>
+      <li><a href="#certifications" class="nav-link" data-tab="achievements.txt"><span class="tab-dot"></span>Achievements</a></li>
+      <li><a href="#contact" class="nav-link" data-tab="contact.sh"><span class="tab-dot"></span>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-text reveal">
+      <p class="eyebrow mono"><span class="prompt">&gt;</span> console.log(<span class="str">"Hello, World"</span>);</p>
+      <h1 class="hero-name">Durai <span class="grad-text">V.</span></h1>
+      <p class="hero-role mono">BSc Computer Science Graduate <span class="dot-sep">·</span> Web Developer</p>
+      <p class="hero-intro">
+        Motivated and adaptable graduate with a strong foundation in computer applications and
+        problem-solving. I build clean, responsive web experiences with HTML, CSS, JavaScript,
+        PHP and Python — and I'm eager to bring that curiosity to a real product team.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/duraicvf5-ux" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/durai-v-freelancer" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="mailto:duraicvf5@gmail.com" aria-label="Email Durai">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="terminal-card">
+        <div class="terminal-titlebar">
+          <span class="tb-dot tb-red"></span>
+          <span class="tb-dot tb-yellow"></span>
+          <span class="tb-dot tb-green"></span>
+          <span class="terminal-filename mono">profile.png</span>
+        </div>
+        <div class="terminal-photo">
+          <img src="assets/profile.png" alt="Portrait illustration of Durai V" width="480" height="480">
+        </div>
+        <div class="terminal-body mono">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="terminal-out">durai_v — tirunelveli, tamil nadu</p>
+          <p><span class="prompt">$</span> <span id="typedLine"></span><span class="cursor" aria-hidden="true">&#9608;</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+    <i class="fa-solid fa-chevron-down"></i>
+  </a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <p class="section-label mono">// about</p>
+  <div class="about-grid">
+    <div class="about-copy reveal">
+      <h2 class="section-title">A quick word about me</h2>
+      <p>
+        I'm a BSc Computer Science graduate from Government Arts and Science College, Manur,
+        Tirunelveli, with a strong foundation in computer applications and problem-solving.
+        I'm motivated and adaptable — someone who picks up new tools quickly and enjoys the
+        process of turning a rough idea into a working piece of software.
+      </p>
+      <p>
+        During my internship at Malar Software and Solutions, I got hands-on experience building
+        responsive web pages and collaborating with a team on real frontend features. Outside of
+        that, I've built full-stack projects on my own — from a railway booking system to an
+        AI-driven resume analyzer — to keep sharpening what I know.
+      </p>
+      <p>
+        I'm currently looking for opportunities as a software developer, web developer, Python
+        developer, or in an entry-level IT role where I can keep learning and contribute to a
+        team that's building something real.
+      </p>
+    </div>
+
+    <div class="about-facts reveal">
+      <div class="json-card mono">
+        <p class="json-line"><span class="json-brace">{</span></p>
+        <p class="json-line"><span class="json-key">"name"</span>: <span class="json-str">"Durai V"</span>,</p>
+        <p class="json-line"><span class="json-key">"role"</span>: <span class="json-str">"Web Developer"</span>,</p>
+        <p class="json-line"><span class="json-key">"location"</span>: <span class="json-str">"Tirunelveli, Tamil Nadu, IN"</span>,</p>
+        <p class="json-line"><span class="json-key">"graduation"</span>: <span class="json-str">"2026"</span>,</p>
+        <p class="json-line"><span class="json-key">"nationality"</span>: <span class="json-str">"Indian"</span>,</p>
+        <p class="json-line"><span class="json-key">"languages"</span>: [<span class="json-str">"Tamil (Native)"</span>, <span class="json-str">"English (Upper Int.)"</span>],</p>
+        <p class="json-line"><span class="json-key">"openTo"</span>: [<span class="json-str">"Full-time"</span>, <span class="json-str">"Freelance"</span>]</p>
+        <p class="json-line"><span class="json-brace">}</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section class="section alt" id="education">
+  <p class="section-label mono">// education</p>
+  <h2 class="section-title">Education</h2>
+
+  <div class="edu-card reveal">
+    <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+    <div class="edu-content">
+      <h3>Bachelor of Science in Computer Science</h3>
+      <p class="edu-org">Government Arts and Science College, Manur, Tirunelveli</p>
+      <p class="edu-meta mono">Graduation: 2026</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section" id="skills">
+  <p class="section-label mono">// skills</p>
+  <h2 class="section-title">Technical Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+      <div class="chip-row">
+        <span class="chip">JavaScript</span>
+        <span class="chip">PHP</span>
+        <span class="chip">Python</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <h3><i class="fa-solid fa-display"></i> Frontend Technologies</h3>
+      <div class="chip-row">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">Bootstrap 5</span>
+        <span class="chip">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <h3><i class="fa-solid fa-server"></i> Backend &amp; Data</h3>
+      <div class="chip-row">
+        <span class="chip">PHP</span>
+        <span class="chip">Python</span>
+        <span class="chip">NLP (Python packages)</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <h3><i class="fa-solid fa-database"></i> Databases</h3>
+      <div class="chip-row">
+        <span class="chip">MySQL</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <h3><i class="fa-solid fa-toolbox"></i> Tools &amp; Platforms</h3>
+      <div class="chip-row">
+        <span class="chip">VS Code</span>
+        <span class="chip">Git &amp; Version Control</span>
+        <span class="chip">MS Office (Word, Excel, PowerPoint)</span>
+        <span class="chip">Google Docs &amp; Sheets</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <h3><i class="fa-solid fa-people-arrows"></i> Professional Skills</h3>
+      <div class="chip-row">
+        <span class="chip">Communication</span>
+        <span class="chip">Problem Solving</span>
+        <span class="chip">Teamwork</span>
+        <span class="chip">Time Management</span>
+        <span class="chip">Adaptability</span>
+        <span class="chip">Quick Learner</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section alt" id="experience">
+  <p class="section-label mono">// experience</p>
+  <h2 class="section-title">Experience &amp; Internship</h2>
+
+  <div class="exp-card reveal">
+    <div class="exp-head">
+      <div>
+        <h3>Web App Development Intern</h3>
+        <p class="exp-org">Malar Software and Solutions</p>
+      </div>
+      <span class="exp-duration mono">Internship</span>
+    </div>
+    <ul class="exp-list">
+      <li>Worked on web application development projects as part of a small team.</li>
+      <li>Developed responsive web pages using HTML, CSS, JavaScript, and Bootstrap.</li>
+      <li>Assisted in basic frontend development, building reusable UI pieces.</li>
+      <li>Participated in debugging, testing, and improving application performance.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section" id="projects">
+  <p class="section-label mono">// projects</p>
+  <h2 class="section-title">Featured Projects</h2>
+
+  <div class="projects-grid">
+
+    <article class="project-card reveal">
+      <div class="project-tab mono">
+        <span class="tb-dot tb-red"></span><span class="tb-dot tb-yellow"></span><span class="tb-dot tb-green"></span>
+        <span class="project-filename">railway-reservation-system.php</span>
+      </div>
+      <div class="project-body">
+        <h3>Railway Reservation Management System</h3>
+        <p class="project-desc">
+          A web-based system to manage train reservations, bookings, and user information end to end.
+        </p>
+        <div class="chip-row">
+          <span class="chip chip-sm">HTML</span>
+          <span class="chip chip-sm">CSS</span>
+          <span class="chip chip-sm">JavaScript</span>
+          <span class="chip chip-sm">PHP</span>
+          <span class="chip chip-sm">MySQL</span>
+        </div>
+        <ul class="project-features">
+          <li>Handles reservations, bookings and user records in one system</li>
+          <li>Server-side logic built in PHP with a MySQL data store</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/duraicvf5-ux" target="_blank" rel="noopener" class="project-link">
+            <i class="fa-brands fa-github"></i> Code on GitHub
+          </a>
+          <span class="project-link disabled" title="Live demo not yet available">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> [Add Live Demo]
+          </span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="project-tab mono">
+        <span class="tb-dot tb-red"></span><span class="tb-dot tb-yellow"></span><span class="tb-dot tb-green"></span>
+        <span class="project-filename">ai-resume-analyzer.py</span>
+      </div>
+      <div class="project-body">
+        <h3>AI Resume Analyzer</h3>
+        <p class="project-desc">
+          A web-based application that analyzes and scores resumes using natural language processing.
+        </p>
+        <div class="chip-row">
+          <span class="chip chip-sm">Python</span>
+          <span class="chip chip-sm">NLP</span>
+          <span class="chip chip-sm">MySQL</span>
+        </div>
+        <ul class="project-features">
+          <li>Parses resume content and scores it using NLP techniques</li>
+          <li>Stores and retrieves analysis results via a MySQL database</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/duraicvf5-ux" target="_blank" rel="noopener" class="project-link">
+            <i class="fa-brands fa-github"></i> Code on GitHub
+          </a>
+          <span class="project-link disabled" title="Live demo not yet available">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> [Add Live Demo]
+          </span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS / ACHIEVEMENTS ================= -->
+<section class="section alt" id="certifications">
+  <p class="section-label mono">// achievements</p>
+  <h2 class="section-title">Certifications &amp; Achievements</h2>
+
+  <div class="achieve-grid">
+    <div class="achieve-card reveal">
+      <i class="fa-solid fa-check"></i>
+      <p>Completed academic projects with practical, end-to-end implementation.</p>
+    </div>
+    <div class="achieve-card reveal">
+      <i class="fa-solid fa-check"></i>
+      <p>Actively participated in college-level events and activities.</p>
+    </div>
+    <div class="achieve-card reveal">
+      <i class="fa-solid fa-check"></i>
+      <p>Consistently demonstrated dedication and willingness to learn.</p>
+    </div>
+    <div class="achieve-card achieve-placeholder reveal">
+      <i class="fa-regular fa-clock"></i>
+      <p>[Add certifications — e.g. MO-211 Excel Expert, once completed]</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+  <p class="section-label mono">// contact</p>
+  <h2 class="section-title">Get in Touch</h2>
+
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <p class="contact-intro">
+        Open to software developer, web developer, Python developer, and entry-level IT roles.
+        Feel free to reach out — I usually reply within a day.
+      </p>
+      <ul class="contact-list">
+        <li><i class="fa-solid fa-phone"></i> <a href="tel:+919952944562">+91 99529 44562</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:duraicvf5@gmail.com">duraicvf5@gmail.com</a></li>
+        <li><i class="fa-solid fa-location-dot"></i> Tirunelveli, Tamil Nadu, India</li>
+        <li><i class="fa-brands fa-github"></i> <a href="https://github.com/duraicvf5-ux" target="_blank" rel="noopener">github.com/duraicvf5-ux</a></li>
+        <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/durai-v-freelancer" target="_blank" rel="noopener">linkedin.com/in/durai-v-freelancer</a></li>
+      </ul>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="cf-name">Name</label>
+        <input type="text" id="cf-name" name="name" required autocomplete="name">
+        <span class="form-error" id="err-name"></span>
+      </div>
+      <div class="form-row">
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" required autocomplete="email">
+        <span class="form-error" id="err-email"></span>
+      </div>
+      <div class="form-row">
+        <label for="cf-subject">Subject</label>
+        <input type="text" id="cf-subject" name="subject" required>
+        <span class="form-error" id="err-subject"></span>
+      </div>
+      <div class="form-row">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+        <span class="form-error" id="err-message"></span>
+      </div>
+      <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+      <p class="form-note">
+        <i class="fa-solid fa-circle-info"></i>
+        This form is front-end only. Connect a backend or a form service
+        (e.g. Formspree, EmailJS, or a custom API) to actually deliver messages.
+      </p>
+      <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand mono">&lt;DV/&gt;</div>
+    <p class="footer-tagline">Built line by line, one commit at a time.</p>
+    <div class="footer-socials">
+      <a href="https://github.com/duraicvf5-ux" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/durai-v-freelancer" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:duraicvf5@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> Durai V. All rights reserved.</p>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
